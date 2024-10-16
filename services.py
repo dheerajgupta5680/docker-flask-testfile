@@ -57,8 +57,8 @@ def supertel_testing():
     
     def send_error_email(subject, message, receiver_email):
         sender_email = "info@supertel.in"
-        username = "2f6846c1-a7ac-4bc9-b24e-ab81152b8867"
-        password = "2f6846c1-a7ac-4bc9-b24e-ab81152b8867"
+        username = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        password = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
         # Create the MIMEMultipart object
         msg = MIMEMultipart()
@@ -370,8 +370,8 @@ def appscart_testing():
         
     def send_error_email(subject, message, attachment_path):
         sender_email = "info@supertel.in"
-        username = "2f6846c1-a7ac-4bc9-b24e-ab81152b8867"
-        password = "2f6846c1-a7ac-4bc9-b24e-ab81152b8867"
+        username = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        password = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         receiver_email = ["dheeraj@aphroecs.com", "bipul@aphroecs.com", "surender@aphroecs.com" ] # "bipul@aphroecs.com", "surender@aphroecs.com" 
         
         # Create the MIMEMultipart object
