@@ -137,9 +137,9 @@ def supertel_testing():
         actions = ActionChains(driver)
         try:
             e_create= WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="email"]')))
-            e_create.send_keys('dheerajgupta5680@gmail.com')
+            e_create.send_keys('XXXXXXXX@gmail.com')
             e_pass= WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="password"]')))
-            e_pass.send_keys('123456789')
+            e_pass.send_keys('XXXXXXXXX')
             login = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="app"]/div/div/div/div/div/form/div[3]/button')))
             login.click()
             sleep(3)
@@ -202,7 +202,7 @@ def supertel_testing():
             fill_sender_id = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="addNewUserForm"]/div[1]/input')))
             fill_sender_id.send_keys('SUPTEL')
             entity_id = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="addNewUserForm"]/div[2]/input')))
-            entity_id.send_keys('1701171506952848562')
+            entity_id.send_keys('17011715069528XXXXX')
             senderid_save_btn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="addNewUserForm"]/button[1]')))
             senderid_save_btn.click()
             sleep(5)
@@ -225,7 +225,7 @@ def supertel_testing():
             template_name = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="addNewUserForm"]/div[1]/input')))
             template_name.send_keys('supertel_template')
             fill_template_id = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="addNewUserForm"]/div[2]/input')))
-            fill_template_id.send_keys('1707171723149700267')
+            fill_template_id.send_keys('1707171723149XXXXX')
             fill_content = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="addNewUserForm"]/div[3]/textarea')))
             fill_content.send_keys('Your OTP for Supertel account is {%23var%23} - Please do not share the OTP with anyone.')
             checkbox_senderid = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="customCheckTemp3"]')))
@@ -261,7 +261,7 @@ def supertel_testing():
             
             sleep(2)
             test_mobile = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="app"]/div/div[1]/div/div/div[1]/main/div/div/div/div/div[5]/div/div[1]/textarea')))
-            test_mobile.send_keys("7503842149 , 9971917666, 7303594538") #, 9971917666, 7303594538
+            test_mobile.send_keys("XXXXXXXXXXXXX") 
             sleep(2)
             send_test_btn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="app"]/div/div[1]/div/div/div[1]/main/div/div/div/div/div[5]/div/div[2]/button')))
             send_test_btn.click()
@@ -424,8 +424,8 @@ def appscart_testing():
         # Login process
         try:
             
-            e_create = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="email"]'))).send_keys('dheeraj@aphroecs.com')    
-            e_pass = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="password"]'))).send_keys('Gst@2024')
+            e_create = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="email"]'))).send_keys('XXXXXXX@gmail.com')    
+            e_pass = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="password"]'))).send_keys('XXXXXXXX')
             
             login = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="app"]/div/div/div/div/div/form/div[3]/button')))
             login.click()
